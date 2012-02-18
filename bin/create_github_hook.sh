@@ -38,7 +38,7 @@ echo "  https://github.com/$repo_user/${repo_name}/admin/hooks"
 echo
 echo "Or, run the following command to examine your existing hooks:"
 echo
-echo "  curl -u "$auth_user:\<GITHUB_PASSWORD\>" https://api.github.com/repos/$repo_user/$repo_name/hooks"
+echo "  curl -u \"$auth_user:\<GITHUB_PASSWORD\>\" https://api.github.com/repos/$repo_user/$repo_name/hooks"
 echo
 echo "For more info, see: http://developer.github.com/v3/repos/hooks/"
 echo
