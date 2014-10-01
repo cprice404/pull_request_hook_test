@@ -1,0 +1,73 @@
+-----------------------------------------------------------------------
+REQUEST RECEIVED:
+-----------------------------------------------------------------------
+POST /github_hooks HTTP/1.1
+Accept: */*
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1750
+Host: 76.105.142.53:8080
+X-Github-Event: push
+
+payload=%7B%22pusher%22%3A%7B%22name%22%3A%22cprice-puppet%22%2C%22email%22%3A%22chris%40puppetlabs.com%22%7D%2C%22repository%22%3A%7B%22name%22%3A%22pull_request_hook_test%22%2C%22size%22%3A96%2C%22has_wiki%22%3Atrue%2C%22created_at%22%3A%222012%2F02%2F17%2020%3A35%3A17%20-0800%22%2C%22watchers%22%3A1%2C%22private%22%3Afalse%2C%22fork%22%3Afalse%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%22%2C%22pushed_at%22%3A%222012%2F02%2F18%2012%3A58%3A06%20-0800%22%2C%22has_downloads%22%3Atrue%2C%22open_issues%22%3A0%2C%22homepage%22%3A%22%22%2C%22has_issues%22%3Atrue%2C%22description%22%3A%22%22%2C%22forks%22%3A1%2C%22owner%22%3A%7B%22name%22%3A%22cprice-puppet%22%2C%22email%22%3A%22chris%40puppetlabs.com%22%7D%7D%2C%22forced%22%3Afalse%2C%22after%22%3A%22115c3a0b6ff49b72513bb13b240b334a13a67867%22%2C%22deleted%22%3Afalse%2C%22ref%22%3A%22refs%2Fheads%2Fmaster%22%2C%22commits%22%3A%5B%7B%22added%22%3A%5B%5D%2C%22modified%22%3A%5B%22bin%2Fdinky_echo_server.rb%22%5D%2C%22author%22%3A%7B%22name%22%3A%22Chris%20Price%22%2C%22username%22%3A%22cprice-puppet%22%2C%22email%22%3A%22chris%40puppetlabs.com%22%7D%2C%22timestamp%22%3A%222012-02-18T12%3A57%3A58-08%3A00%22%2C%22removed%22%3A%5B%5D%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fcommit%2F115c3a0b6ff49b72513bb13b240b334a13a67867%22%2C%22id%22%3A%22115c3a0b6ff49b72513bb13b240b334a13a67867%22%2C%22distinct%22%3Atrue%2C%22message%22%3A%22Pretty%20print%20JSON%20payload%20if%20one%20is%20found%22%7D%5D%2C%22before%22%3A%22f591518787eb2b371df3cc215a40004510052340%22%2C%22compare%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fcompare%2Ff591518...115c3a0%22%2C%22created%22%3Afalse%7D
+
+PAYLOAD:
+{
+  "pusher": {
+    "name": "cprice-puppet",
+    "email": "chris@puppetlabs.com"
+  },
+  "repository": {
+    "name": "pull_request_hook_test",
+    "size": 96,
+    "has_wiki": true,
+    "created_at": "2012/02/17 20:35:17 -0800",
+    "watchers": 1,
+    "private": false,
+    "fork": false,
+    "url": "https://github.com/cprice-puppet/pull_request_hook_test",
+    "pushed_at": "2012/02/18 12:58:06 -0800",
+    "has_downloads": true,
+    "open_issues": 0,
+    "homepage": "",
+    "has_issues": true,
+    "description": "",
+    "forks": 1,
+    "owner": {
+      "name": "cprice-puppet",
+      "email": "chris@puppetlabs.com"
+    }
+  },
+  "forced": false,
+  "after": "115c3a0b6ff49b72513bb13b240b334a13a67867",
+  "deleted": false,
+  "ref": "refs/heads/master",
+  "commits": [
+    {
+      "added": [
+
+      ],
+      "modified": [
+        "bin/dinky_echo_server.rb"
+      ],
+      "author": {
+        "name": "Chris Price",
+        "username": "cprice-puppet",
+        "email": "chris@puppetlabs.com"
+      },
+      "timestamp": "2012-02-18T12:57:58-08:00",
+      "removed": [
+
+      ],
+      "url": "https://github.com/cprice-puppet/pull_request_hook_test/commit/115c3a0b6ff49b72513bb13b240b334a13a67867",
+      "id": "115c3a0b6ff49b72513bb13b240b334a13a67867",
+      "distinct": true,
+      "message": "Pretty print JSON payload if one is found"
+    }
+  ],
+  "before": "f591518787eb2b371df3cc215a40004510052340",
+  "compare": "https://github.com/cprice-puppet/pull_request_hook_test/compare/f591518...115c3a0",
+  "created": false
+}
+-----------------------------------------------------------------------
+

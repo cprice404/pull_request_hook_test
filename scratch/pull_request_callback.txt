@@ -1,0 +1,179 @@
+REQUEST RECEIVED:
+-----------------------------------------------------------------------
+POST /github_hooks HTTP/1.1
+Accept: */*
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 7643
+Host: 76.105.142.53:8080
+X-Github-Event: pull_request
+
+payload=%7B%22number%22%3A1%2C%22repository%22%3A%7B%22name%22%3A%22pull_request_hook_test%22%2C%22created_at%22%3A%222012-02-18T04%3A35%3A17Z%22%2C%22updated_at%22%3A%222012-02-18T22%3A26%3A48Z%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%22%2C%22id%22%3A3476214%2C%22pushed_at%22%3A%222012-02-18T22%3A24%3A23Z%22%2C%22owner%22%3A%7B%22gravatar_id%22%3A%22dd3fc674f6ca99328430094de4d217b7%22%2C%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fdd3fc674f6ca99328430094de4d217b7%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice-puppet%22%2C%22id%22%3A1341071%2C%22login%22%3A%22cprice-puppet%22%7D%7D%2C%22pull_request%22%3A%7B%22number%22%3A1%2C%22head%22%3A%7B%22repo%22%3A%7B%22master_branch%22%3Anull%2C%22name%22%3A%22pull_request_hook_test%22%2C%22has_wiki%22%3Atrue%2C%22created_at%22%3A%222012-02-18T22%3A26%3A47Z%22%2C%22size%22%3A104%2C%22clone_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice404%2Fpull_request_hook_test.git%22%2C%22watchers%22%3A1%2C%22private%22%3Afalse%2C%22updated_at%22%3A%222012-02-18T22%3A47%3A36Z%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice404%2Fpull_request_hook_test%22%2C%22language%22%3A%22Shell%22%2C%22ssh_url%22%3A%22git%40github.com%3Acprice404%2Fpull_request_hook_test.git%22%2C%22fork%22%3Atrue%2C%22git_url%22%3A%22git%3A%2F%2Fgithub.com%2Fcprice404%2Fpull_request_hook_test.git%22%2C%22svn_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice404%2Fpull_request_hook_test%22%2C%22pushed_at%22%3A%222012-02-18T22%3A47%3A35Z%22%2C%22id%22%3A3481663%2C%22open_issues%22%3A0%2C%22has_downloads%22%3Atrue%2C%22mirror_url%22%3Anull%2C%22has_issues%22%3Afalse%2C%22homepage%22%3A%22%22%2C%22description%22%3A%22%22%2C%22forks%22%3A0%2C%22html_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice404%2Fpull_request_hook_test%22%2C%22owner%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F66ab840486dd87de20ed91c55012d1fe%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22gravatar_id%22%3A%2266ab840486dd87de20ed91c55012d1fe%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice404%22%2C%22id%22%3A1289495%2C%22login%22%3A%22cprice404%22%7D%7D%2C%22label%22%3A%22cprice404%3Atest_branch%22%2C%22sha%22%3A%224d028e78efd71a8900f780e48aef2afe2e9d1c0a%22%2C%22ref%22%3A%22test_branch%22%2C%22user%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F66ab840486dd87de20ed91c55012d1fe%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22gravatar_id%22%3A%2266ab840486dd87de20ed91c55012d1fe%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice404%22%2C%22id%22%3A1289495%2C%22login%22%3A%22cprice404%22%7D%7D%2C%22issue_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fissues%2F1%22%2C%22created_at%22%3A%222012-02-18T22%3A49%3A45Z%22%2C%22merged%22%3Afalse%2C%22changed_files%22%3A2%2C%22merged_by%22%3Anull%2C%22title%22%3A%22cleanup%20and%20example%22%2C%22body%22%3A%22%2A%20fixed%20some%20quotes%20in%20the%20bash%20script%5Cr%5Cn%2A%20added%20a%20text%20file%20with%20an%20example%20%5C%22push%5C%22%20hook%20callback.%22%2C%22comments%22%3A0%2C%22additions%22%3A74%2C%22diff_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fpull%2F1.diff%22%2C%22updated_at%22%3A%222012-02-18T22%3A49%3A45Z%22%2C%22_links%22%3A%7B%22html%22%3A%7B%22href%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fpull%2F1%22%7D%2C%22self%22%3A%7B%22href%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%2Fpulls%2F1%22%7D%2C%22comments%22%3A%7B%22href%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%2Fissues%2F1%2Fcomments%22%7D%2C%22review_comments%22%3A%7B%22href%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%2Fpulls%2F1%2Fcomments%22%7D%7D%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%2Fpulls%2F1%22%2C%22id%22%3A850762%2C%22patch_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fpull%2F1.patch%22%2C%22mergeable%22%3Anull%2C%22merged_at%22%3Anull%2C%22commits%22%3A1%2C%22closed_at%22%3Anull%2C%22html_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%2Fpull%2F1%22%2C%22deletions%22%3A1%2C%22review_comments%22%3A0%2C%22user%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F66ab840486dd87de20ed91c55012d1fe%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22gravatar_id%22%3A%2266ab840486dd87de20ed91c55012d1fe%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice404%22%2C%22id%22%3A1289495%2C%22login%22%3A%22cprice404%22%7D%2C%22base%22%3A%7B%22repo%22%3A%7B%22master_branch%22%3Anull%2C%22name%22%3A%22pull_request_hook_test%22%2C%22has_wiki%22%3Atrue%2C%22created_at%22%3A%222012-02-18T04%3A35%3A17Z%22%2C%22size%22%3A96%2C%22clone_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test.git%22%2C%22watchers%22%3A2%2C%22private%22%3Afalse%2C%22updated_at%22%3A%222012-02-18T22%3A26%3A48Z%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Frepos%2Fcprice-puppet%2Fpull_request_hook_test%22%2C%22language%22%3Anull%2C%22ssh_url%22%3A%22git%40github.com%3Acprice-puppet%2Fpull_request_hook_test.git%22%2C%22fork%22%3Afalse%2C%22git_url%22%3A%22git%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test.git%22%2C%22svn_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%22%2C%22pushed_at%22%3A%222012-02-18T22%3A24%3A23Z%22%2C%22id%22%3A3476214%2C%22open_issues%22%3A1%2C%22has_downloads%22%3Atrue%2C%22mirror_url%22%3Anull%2C%22has_issues%22%3Atrue%2C%22homepage%22%3A%22%22%2C%22description%22%3A%22%22%2C%22forks%22%3A2%2C%22html_url%22%3A%22https%3A%2F%2Fgithub.com%2Fcprice-puppet%2Fpull_request_hook_test%22%2C%22owner%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fdd3fc674f6ca99328430094de4d217b7%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22gravatar_id%22%3A%22dd3fc674f6ca99328430094de4d217b7%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice-puppet%22%2C%22id%22%3A1341071%2C%22login%22%3A%22cprice-puppet%22%7D%7D%2C%22label%22%3A%22cprice-puppet%3Amaster%22%2C%22sha%22%3A%221a5590fcce9c39935a4df4bf259acda38df76faa%22%2C%22ref%22%3A%22master%22%2C%22user%22%3A%7B%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fdd3fc674f6ca99328430094de4d217b7%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22gravatar_id%22%3A%22dd3fc674f6ca99328430094de4d217b7%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice-puppet%22%2C%22id%22%3A1341071%2C%22login%22%3A%22cprice-puppet%22%7D%7D%2C%22state%22%3A%22open%22%7D%2C%22sender%22%3A%7B%22gravatar_id%22%3A%2266ab840486dd87de20ed91c55012d1fe%22%2C%22avatar_url%22%3A%22https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F66ab840486dd87de20ed91c55012d1fe%3Fd%3Dhttps%3A%2F%2Fa248.e.akamai.net%2Fassets.github.com%252Fimages%252Fgravatars%252Fgravatar-140.png%22%2C%22url%22%3A%22https%3A%2F%2Fapi.github.com%2Fusers%2Fcprice404%22%2C%22id%22%3A1289495%2C%22login%22%3A%22cprice404%22%7D%2C%22action%22%3A%22opened%22%7D
+
+PAYLOAD:
+{
+  "number": 1,
+  "repository": {
+    "name": "pull_request_hook_test",
+    "created_at": "2012-02-18T04:35:17Z",
+    "updated_at": "2012-02-18T22:26:48Z",
+    "url": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test",
+    "id": 3476214,
+    "pushed_at": "2012-02-18T22:24:23Z",
+    "owner": {
+      "gravatar_id": "dd3fc674f6ca99328430094de4d217b7",
+      "avatar_url": "https://secure.gravatar.com/avatar/dd3fc674f6ca99328430094de4d217b7?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/cprice-puppet",
+      "id": 1341071,
+      "login": "cprice-puppet"
+    }
+  },
+  "pull_request": {
+    "number": 1,
+    "head": {
+      "repo": {
+        "master_branch": null,
+        "name": "pull_request_hook_test",
+        "has_wiki": true,
+        "created_at": "2012-02-18T22:26:47Z",
+        "size": 104,
+        "clone_url": "https://github.com/cprice404/pull_request_hook_test.git",
+        "watchers": 1,
+        "private": false,
+        "updated_at": "2012-02-18T22:47:36Z",
+        "url": "https://api.github.com/repos/cprice404/pull_request_hook_test",
+        "language": "Shell",
+        "ssh_url": "git@github.com:cprice404/pull_request_hook_test.git",
+        "fork": true,
+        "git_url": "git://github.com/cprice404/pull_request_hook_test.git",
+        "svn_url": "https://github.com/cprice404/pull_request_hook_test",
+        "pushed_at": "2012-02-18T22:47:35Z",
+        "id": 3481663,
+        "open_issues": 0,
+        "has_downloads": true,
+        "mirror_url": null,
+        "has_issues": false,
+        "homepage": "",
+        "description": "",
+        "forks": 0,
+        "html_url": "https://github.com/cprice404/pull_request_hook_test",
+        "owner": {
+          "avatar_url": "https://secure.gravatar.com/avatar/66ab840486dd87de20ed91c55012d1fe?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "66ab840486dd87de20ed91c55012d1fe",
+          "url": "https://api.github.com/users/cprice404",
+          "id": 1289495,
+          "login": "cprice404"
+        }
+      },
+      "label": "cprice404:test_branch",
+      "sha": "4d028e78efd71a8900f780e48aef2afe2e9d1c0a",
+      "ref": "test_branch",
+      "user": {
+        "avatar_url": "https://secure.gravatar.com/avatar/66ab840486dd87de20ed91c55012d1fe?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+        "gravatar_id": "66ab840486dd87de20ed91c55012d1fe",
+        "url": "https://api.github.com/users/cprice404",
+        "id": 1289495,
+        "login": "cprice404"
+      }
+    },
+    "issue_url": "https://github.com/cprice-puppet/pull_request_hook_test/issues/1",
+    "created_at": "2012-02-18T22:49:45Z",
+    "merged": false,
+    "changed_files": 2,
+    "merged_by": null,
+    "title": "cleanup and example",
+    "body": "* fixed some quotes in the bash script\r\n* added a text file with an example \"push\" hook callback.",
+    "comments": 0,
+    "additions": 74,
+    "diff_url": "https://github.com/cprice-puppet/pull_request_hook_test/pull/1.diff",
+    "updated_at": "2012-02-18T22:49:45Z",
+    "_links": {
+      "html": {
+        "href": "https://github.com/cprice-puppet/pull_request_hook_test/pull/1"
+      },
+      "self": {
+        "href": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test/pulls/1"
+      },
+      "comments": {
+        "href": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test/issues/1/comments"
+      },
+      "review_comments": {
+        "href": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test/pulls/1/comments"
+      }
+    },
+    "url": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test/pulls/1",
+    "id": 850762,
+    "patch_url": "https://github.com/cprice-puppet/pull_request_hook_test/pull/1.patch",
+    "mergeable": null,
+    "merged_at": null,
+    "commits": 1,
+    "closed_at": null,
+    "html_url": "https://github.com/cprice-puppet/pull_request_hook_test/pull/1",
+    "deletions": 1,
+    "review_comments": 0,
+    "user": {
+      "avatar_url": "https://secure.gravatar.com/avatar/66ab840486dd87de20ed91c55012d1fe?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "gravatar_id": "66ab840486dd87de20ed91c55012d1fe",
+      "url": "https://api.github.com/users/cprice404",
+      "id": 1289495,
+      "login": "cprice404"
+    },
+    "base": {
+      "repo": {
+        "master_branch": null,
+        "name": "pull_request_hook_test",
+        "has_wiki": true,
+        "created_at": "2012-02-18T04:35:17Z",
+        "size": 96,
+        "clone_url": "https://github.com/cprice-puppet/pull_request_hook_test.git",
+        "watchers": 2,
+        "private": false,
+        "updated_at": "2012-02-18T22:26:48Z",
+        "url": "https://api.github.com/repos/cprice-puppet/pull_request_hook_test",
+        "language": null,
+        "ssh_url": "git@github.com:cprice-puppet/pull_request_hook_test.git",
+        "fork": false,
+        "git_url": "git://github.com/cprice-puppet/pull_request_hook_test.git",
+        "svn_url": "https://github.com/cprice-puppet/pull_request_hook_test",
+        "pushed_at": "2012-02-18T22:24:23Z",
+        "id": 3476214,
+        "open_issues": 1,
+        "has_downloads": true,
+        "mirror_url": null,
+        "has_issues": true,
+        "homepage": "",
+        "description": "",
+        "forks": 2,
+        "html_url": "https://github.com/cprice-puppet/pull_request_hook_test",
+        "owner": {
+          "avatar_url": "https://secure.gravatar.com/avatar/dd3fc674f6ca99328430094de4d217b7?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "dd3fc674f6ca99328430094de4d217b7",
+          "url": "https://api.github.com/users/cprice-puppet",
+          "id": 1341071,
+          "login": "cprice-puppet"
+        }
+      },
+      "label": "cprice-puppet:master",
+      "sha": "1a5590fcce9c39935a4df4bf259acda38df76faa",
+      "ref": "master",
+      "user": {
+        "avatar_url": "https://secure.gravatar.com/avatar/dd3fc674f6ca99328430094de4d217b7?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+        "gravatar_id": "dd3fc674f6ca99328430094de4d217b7",
+        "url": "https://api.github.com/users/cprice-puppet",
+        "id": 1341071,
+        "login": "cprice-puppet"
+      }
+    },
+    "state": "open"
+  },
+  "sender": {
+    "gravatar_id": "66ab840486dd87de20ed91c55012d1fe",
+    "avatar_url": "https://secure.gravatar.com/avatar/66ab840486dd87de20ed91c55012d1fe?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/cprice404",
+    "id": 1289495,
+    "login": "cprice404"
+  },
+  "action": "opened"
+}
+-----------------------------------------------------------------------
+
